@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: blanchedalmond; */
+}
+
+.userBox {
+  border: 3px solid black;
+  height: 200px;
+  width: 600px;
+  margin: 30px;
+}
+
+.UserInfo {
+  height: 50%;
+  width: 90%;
+  /* background-color: blueviolet; */
+  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FillerText {
+  height: 50%;
+  width: 90%;
+  /* background-color: coral; */
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.likingLikes {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.LikeBtn {
+  /* padding: 10px; */
+  background-color: yellow;
+  box-shadow: 5px 5px black;
+  border: 2px solid black;
+  width: 80px;
+  height: 40px;
+  font-size: x-large;
+}
